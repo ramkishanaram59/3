@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+
+double calculatePower(double base, int exponent) {
+    return std::pow(base, exponent);
+}
+
+int main() {
+    double base = 2.5;
+    int exponent = 3;
+    std::cout << calculatePower(base, exponent) << std::endl;
+    return 0;
+}
+
